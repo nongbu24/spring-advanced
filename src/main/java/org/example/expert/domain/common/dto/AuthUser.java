@@ -5,7 +5,6 @@ import org.example.expert.domain.user.enums.UserRole;
 
 @Getter
 public class AuthUser {
-
     private final Long id;
     private final String email;
     private final UserRole userRole;

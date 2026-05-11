@@ -18,7 +18,6 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 public class ManagerController {
-
     private final ManagerService managerService;
     private final JwtUtil jwtUtil;
 
